@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}
+\textwidth 7.5in
+\textheight 10in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\topmargin -1in    
+\usepackage{graphics}        
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amscd,amssymb}
+\usepackage{latexsym}
+\usepackage{upref}
+\begin{document}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\ihat}{{\bf{i}}}
+\newcommand{\jhat}{{\bf{j}}}
+\newcommand{\khat}{{\bf{k}}}
+\newcommand{\Fhat}{{\bf{F}}}
+%\pagestyle{headings}
+%\markright{MATH 1120 Lab Worksheet \#1}
+
+\thispagestyle{empty}
+
+\noindent
+\sffamily
+\begin{center}
+\rule{7.5in}{2pt}
+
+\vspace{.2in}
+
+\begin{tabular}{p{4in}p{3.5in}}
+MATH 3025
+
+\vspace{.2in}
+
+Computer Lab \#1
+& 
+NAME:  $_{\rule{2.5in}{1pt}}$
+
+\vspace{.2in}
+
+Due Monday February 5th 2023 by noon.
+\\*[.2in]
+\end{tabular}
+\rule{7.5in}{2pt}
+
+\vspace{.1in}
+All work is to be done in a notebook with both code and written comments.  Please utilize the notebook structure to type comments in their own text boxes. \\
+ Please refer to the blackboard and GitHub for commands and examples. \\
+ Submissions must be made electronically on blackboard. \\
+   You will be graded on the output that I am able to generate from your commands.\\
+%\bf Please delete all output before submitting.
+\end{center}
+%\begin{tabular}{*{26}{|c}|}\hline
+%A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z\\ \hline
+%1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21&22&23&24&25&26\\ \hline
+%\end{tabular}
+
+\begin{enumerate}
+\item Let the last digit of your student number be $a$ (if it happens to be a zero use $a=10$).  Consider the function 
+\[f(x)=\frac1{\sqrt{ax+1}}.\]
+\begin{enumerate}
+\item Graph the function from 0 to 1.
+\item Make an estimate of the area under the curve based on the graph.  There should be complete sentences explaining your estimate.
+\item Calculate the area under the curve in mathematica.
+\end{enumerate}
+\item Consider the functions, where $a$ is as defined above,
+\[
+y= e^{x}\quad\quad\text{and}\quad\quad y=\sqrt{a x}+1.
+\]
+\begin{enumerate}
+\item Graph both functions on the same coordinate axis.
+\item Find the points of intersection using the numerical solver and inspection of the graph.
+\item Calculate the area between the two curves.
+\item Calculate the volume of the solid obtained by rotating about the $y$-axis.
+\end{enumerate}
+\item Integration by parts can be used to prove the following reduction formula.
+\[
+\int \left(\ln x\right)^n dx=x\left(\ln x\right)^n-n\int\left(\ln x \right)^{n-1} dx
+\]
+\begin{enumerate}
+\item Find the integral on the left-hand-side when $n=a$.
+\item Explain why the reduction formula is preferred to the above output.  (If you had a=1 or 2 you might try a different number)
+\item Prove the reduction formula by having programming language take the derivative of the right-hand-side.
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
+
+
+
+
