@@ -1,0 +1,93 @@
+\documentclass[11pt]{article}
+\textwidth 7.5in
+\textheight 10in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\topmargin -1in    
+\usepackage{graphics}        
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amscd,amssymb}
+\usepackage{latexsym}
+\usepackage{upref}
+\begin{document}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\ihat}{{\bf{i}}}
+\newcommand{\jhat}{{\bf{j}}}
+\newcommand{\khat}{{\bf{k}}}
+\newcommand{\Fhat}{{\bf{F}}}
+%\pagestyle{headings}
+%\markright{MATH 1120 Lab Worksheet \#1}
+
+\thispagestyle{empty}
+
+\noindent
+\sffamily
+\begin{center}
+\rule{7.5in}{2pt}
+
+\vspace{.2in}
+
+\begin{tabular}{p{4in}p{3.5in}}
+MATH 3025
+
+\vspace{.2in}
+
+Mathematica Lab \#3
+& 
+NAME:  $_{\rule{2.5in}{1pt}}$
+
+\vspace{.2in}
+
+Due Monday April 3rd 2023 by 11:59 P.M.
+\\*[.2in]
+\end{tabular}
+\rule{7.5in}{2pt}
+
+\vspace{.1in}
+All work is to be done in a programming notebook. \\
+ Please refer to the blackboard site for commands and examples. \\
+ %Submissions must be made electronically to njacob@ecok.edu. \\
+   You will be graded on the output that I am able to generate from your commands.\\
+
+\end{center}
+\begin{tabular}{*{26}{|c}|}\hline
+A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z\\ \hline
+27&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21&22&23&24&25&26\\ \hline
+\end{tabular}
+
+\begin{enumerate}
+\item
+Consider the function $f(x)=\frac1x$ for $x>1$.  Revolve this function about the $x$-axis creates what is referred to as Gabriel's (or Torricelli's) Horn.  A picture is provided below.
+
+\begin{center}
+\includegraphics[scale=.4]{GabrielsHorn}
+\end{center}
+\begin{enumerate}
+\item Calculate the volume of the horn for $1<x<\infty$.
+\item Calculate the anti-derivative that would represent the surface area.\label{b}
+\item Use part \ref{b} to compute the surface area for $1<x<\infty$ by taking the limit as $t\to\infty$.
+\item Explain in words why this is a paradox.  It is best to talk in terms of paint.
+\end{enumerate}
+\item Consider the function $g(x)=\dfrac {x^5}{x!}$.  Let $a$ be the number corresponding to the first initial of your family (last) name.
+\begin{enumerate}
+\item Graph the function for $0\leq x\leq20$.  Note the plot command will not work since $g(x)$ is not defined for $n<x<n+1$ for all $n\in\mathbb{N}$.  See template for project 3 for a suggestion on which package to use.
+\item Guess the limit of $g(x)$ as $x$ approaches infinity.
+\item Find the smallest value $N$ that correspond to $\epsilon=\frac 1{a^3}$ in the precise (formal) definition of the limit.  See definition 2 on page 692 of your book or the wikipedia page on formal definition of the limit of a sequence.
+\end{enumerate}
+\item Consider the series.
+\[
+\sum_{n=1}^\infty\frac{\left(\ln n\right)^2}{n^2}
+\]
+\begin{enumerate}
+\item Show that the series is convergent by computing its sum,  $S$.
+\item Let $\displaystyle S_a=\sum_{n=1}^a\frac{\left(\ln n\right)^2}{n^2}$, find the error in $S\approx S_a$.
+\item Find the error in $S\approx S_{a+100}$ and $S\approx S_{a+1000}$.
+
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
+
+
+
+
