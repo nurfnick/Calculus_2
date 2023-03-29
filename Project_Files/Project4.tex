@@ -1,0 +1,94 @@
+\documentclass[11pt]{article}
+\textwidth 7.5in
+\textheight 10in
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\topmargin -1in    
+\usepackage{graphics}        
+\usepackage{graphicx}
+\usepackage{amsmath,amsthm,amscd,amssymb}
+\usepackage{latexsym}
+\usepackage{upref}
+\begin{document}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\ihat}{{\bf{i}}}
+\newcommand{\jhat}{{\bf{j}}}
+\newcommand{\khat}{{\bf{k}}}
+\newcommand{\Fhat}{{\bf{F}}}
+%\pagestyle{headings}
+%\markright{MATH 1120 Lab Worksheet \#1}
+
+\thispagestyle{empty}
+
+\noindent
+\sffamily
+\begin{center}
+\rule{7.5in}{2pt}
+
+\vspace{.2in}
+
+\begin{tabular}{p{4in}p{3.5in}}
+MATH 3025
+
+\vspace{.2in}
+
+Mathematica Lab \#4
+& 
+NAME:  $_{\rule{2.5in}{1pt}}$
+
+\vspace{.2in}
+
+Due Monday May 1st 2023 by 11:30 A.M.
+\\*[.2in]
+\end{tabular}
+\rule{7.5in}{2pt}
+
+\vspace{.1in}
+All work is to be done in a programming notebook. \\
+ Please refer to the blackboard site for commands and examples. \\
+ Submissions must be made electronically to njacob@ecok.edu. \\
+   You will be graded on the output that I am able to generate from your commands.\\
+%\bf Please delete all output before submitting.
+\end{center}
+\begin{tabular}{*{26}{|c}|}\hline
+A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z\\ \hline
+1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&19&20&21&22&23&24&25&26\\ \hline
+\end{tabular}
+
+\begin{enumerate}
+\item Let $a$ be the value corresponding to the first letter of your last (family) name.  Consider the Bessel function of the first kind
+\[
+J_a(x)
+=
+\sum_{n=0}^\infty
+\frac{\left(-1\right)^n x^{2n+a}}
+{n!\left(n+a\right)!\  2^{2n+a}}
+\]
+\begin{enumerate}
+\item Find the interval of convergence.
+\item Graph the partial sums for $0\leq n\leq b$ for $0\leq x\leq10$.  Where $b$ is 1, 10, and 50.
+\item Graph the partial sums and the full function using the besselj(a,x) command all on the same coordinate axis.
+\item Explain in words how well the partial sums approximate the full function.
+\end{enumerate}
+\item Consider the Lissajous figure.  Use $a$ as defined above and $b$ as the initial of your first name.  Your $t$ should vary between zero and $2\pi$.
+\[
+\left\{
+\begin{array}{l}
+x=a\sin 3t\\
+y=b\cos t
+\end{array}
+\right.
+\]
+\begin{enumerate}
+\item Use plot\_parametric command graph the curve.
+\item Find the equation of the tangent when $t=\frac\pi{12}$.  Graph it together with the curve.  
+\item Find the area under the curve.
+\item Find the arc length of the curve.
+\end{enumerate}
+\end{enumerate}
+\end{document}
+
+
+
+
+
