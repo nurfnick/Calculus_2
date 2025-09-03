@@ -1,0 +1,4 @@
+Gwen	https://github.com/oliviagwenny-oss/Gwen-s-Calc-II-Coding-Assignment-0/blob/main/Gwen's_Calc_II_Assignment_0.ipynb
+Simon	https://github.com/Siman73000/Calculus_II_Computer_Labs/blob/main/Lab_0/introToNotebook.ipynb
+Austin	https://github.com/auspace/Calc-2/blob/main/Calc2%20coding.ipynb
+Eddie	https://github.com/Hay-Yeti/Calculus-2/blob/main/Project%200.ipynb
